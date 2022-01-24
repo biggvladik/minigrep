@@ -19,7 +19,6 @@ fn main(){
         process::exit(1);
     }
 
-   run(config);
 }
 
 fn run(config:Config) -> Result<(),Box<dyn Error>>{
